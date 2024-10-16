@@ -44,6 +44,7 @@ def runHelp(title):
     print('game3')
     print('dir')
     print('dirinstruct')
+    print('game4')
 def runDate():
     print('| DATE |')
     current_date = datetime.datetime.today()
@@ -457,5 +458,7 @@ while True:
         runDir()
     elif command == 'dirinstruct':
         runDirinstruct()
+    elif command == 'game4':
+        runGame4()
     else:
          print('Error 545454: Invalid command:/')
